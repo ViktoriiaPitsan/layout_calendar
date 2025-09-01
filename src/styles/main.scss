@@ -24,8 +24,6 @@ body {
   padding-inline: $pad-x;
 
   &__day {
-    cursor: pointer;
-
     position: relative;
 
     box-sizing: border-box;
@@ -56,6 +54,7 @@ body {
     }
 
     &:hover {
+      cursor: pointer;
       transform: translateY(-$hover-lift);
       background-color: $hover-bg;
     }
